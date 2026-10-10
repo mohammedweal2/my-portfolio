@@ -1,0 +1,870 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammed Wael | Data Analyst &amp; Power BI Portfolio</title>
+    <meta name="description" content="Mohammed Wael — Data Analyst based in Cairo, Egypt. Power BI, SQL, Python and Tableau dashboards for e-commerce, retail and sports data.">
+    <!-- Tailwind CSS (pre-built, minified) -->
+    <style>*,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/*! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com*/*,:after,:before{box-sizing:border-box;border:0 solid #e5e7eb}:after,:before{--tw-content:""}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;-o-tab-size:4;tab-size:4;font-family:Inter,sans-serif;font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{opacity:1;color:#9ca3af}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.-inset-1\.5{inset:-.375rem}.inset-0{inset:0}.bottom-10{bottom:2.5rem}.left-0{left:0}.left-10{left:2.5rem}.right-0{right:0}.right-10{right:2.5rem}.right-3{right:.75rem}.right-4{right:1rem}.top-0{top:0}.top-1\/4{top:25%}.top-3{top:.75rem}.top-4{top:1rem}.z-10{z-index:10}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.mb-10{margin-bottom:2.5rem}.mb-16{margin-bottom:4rem}.mb-2{margin-bottom:.5rem}.mb-3{margin-bottom:.75rem}.mb-4{margin-bottom:1rem}.mb-5{margin-bottom:1.25rem}.mb-6{margin-bottom:1.5rem}.ml-5{margin-left:1.25rem}.mr-2{margin-right:.5rem}.mr-3{margin-right:.75rem}.mt-1{margin-top:.25rem}.mt-2{margin-top:.5rem}.mt-20{margin-top:5rem}.mt-4{margin-top:1rem}.line-clamp-3{overflow:hidden;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.inline-flex{display:inline-flex}.grid{display:grid}.hidden{display:none}.h-10{height:2.5rem}.h-12{height:3rem}.h-14{height:3.5rem}.h-2{height:.5rem}.h-2\.5{height:.625rem}.h-20{height:5rem}.h-24{height:6rem}.h-3{height:.75rem}.h-48{height:12rem}.h-56{height:14rem}.h-full{height:100%}.max-h-\[90vh\]{max-height:90vh}.min-h-screen{min-height:100vh}.w-10{width:2.5rem}.w-12{width:3rem}.w-14{width:3.5rem}.w-2{width:.5rem}.w-24{width:6rem}.w-3{width:.75rem}.w-full{width:100%}.max-w-2xl{max-width:42rem}.max-w-3xl{max-width:48rem}.max-w-4xl{max-width:56rem}.max-w-7xl{max-width:80rem}.max-w-md{max-width:28rem}.flex-1{flex:1 1 0%}.shrink-0{flex-shrink:0}.scale-100{--tw-scale-x:1;--tw-scale-y:1}.scale-100,.scale-95{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.scale-95{--tw-scale-x:.95;--tw-scale-y:.95}.transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}@keyframes pulse{50%{opacity:.5}}.animate-pulse{animation:pulse 2s cubic-bezier(.4,0,.6,1) infinite}.cursor-pointer{cursor:pointer}.list-disc{list-style-type:disc}.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}.grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.flex-col{flex-direction:column}.flex-wrap{flex-wrap:wrap}.items-start{align-items:flex-start}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-1\.5{gap:.375rem}.gap-10{gap:2.5rem}.gap-12{gap:3rem}.gap-2{gap:.5rem}.gap-3{gap:.75rem}.gap-4{gap:1rem}.gap-6{gap:1.5rem}.gap-8{gap:2rem}.gap-x-6{-moz-column-gap:1.5rem;column-gap:1.5rem}.gap-y-2{row-gap:.5rem}.space-x-2>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(.5rem*var(--tw-space-x-reverse));margin-left:calc(.5rem*(1 - var(--tw-space-x-reverse)))}.space-x-3>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(.75rem*var(--tw-space-x-reverse));margin-left:calc(.75rem*(1 - var(--tw-space-x-reverse)))}.space-x-4>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1rem*var(--tw-space-x-reverse));margin-left:calc(1rem*(1 - var(--tw-space-x-reverse)))}.space-x-5>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1.25rem*var(--tw-space-x-reverse));margin-left:calc(1.25rem*(1 - var(--tw-space-x-reverse)))}.space-x-6>:not([hidden])~:not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1.5rem*var(--tw-space-x-reverse));margin-left:calc(1.5rem*(1 - var(--tw-space-x-reverse)))}.space-y-1\.5>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.375rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.375rem*var(--tw-space-y-reverse))}.space-y-12>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(3rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(3rem*var(--tw-space-y-reverse))}.space-y-2>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.5rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.5rem*var(--tw-space-y-reverse))}.space-y-3>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.75rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.75rem*var(--tw-space-y-reverse))}.space-y-4>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem*var(--tw-space-y-reverse))}.space-y-6>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1.5rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1.5rem*var(--tw-space-y-reverse))}.space-y-8>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(2rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(2rem*var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.overflow-y-auto{overflow-y:auto}.scroll-smooth{scroll-behavior:smooth}.whitespace-nowrap{white-space:nowrap}.rounded{border-radius:.25rem}.rounded-2xl{border-radius:1rem}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:.5rem}.rounded-md{border-radius:.375rem}.rounded-xl{border-radius:.75rem}.border{border-width:1px}.border-2{border-width:2px}.border-b{border-bottom-width:1px}.border-l-2{border-left-width:2px}.border-t{border-top-width:1px}.border-amber-500{--tw-border-opacity:1;border-color:rgb(245 158 11/var(--tw-border-opacity,1))}.border-gray-700{--tw-border-opacity:1;border-color:rgb(55 65 81/var(--tw-border-opacity,1))}.border-gray-700\/80{border-color:rgba(55,65,81,.8)}.border-gray-800{--tw-border-opacity:1;border-color:rgb(31 41 55/var(--tw-border-opacity,1))}.border-gray-800\/60{border-color:rgba(31,41,55,.6)}.border-gray-800\/80{border-color:rgba(31,41,55,.8)}.border-indigo-500\/30{border-color:rgba(99,102,241,.3)}.border-indigo-500\/70{border-color:rgba(99,102,241,.7)}.bg-amber-500{--tw-bg-opacity:1;background-color:rgb(245 158 11/var(--tw-bg-opacity,1))}.bg-black\/80{background-color:rgba(0,0,0,.8)}.bg-cyan-600\/20{background-color:rgba(8,145,178,.2)}.bg-dark-800\/40{background-color:rgba(17,24,39,.4)}.bg-dark-900{--tw-bg-opacity:1;background-color:rgb(10 15 29/var(--tw-bg-opacity,1))}.bg-emerald-400{--tw-bg-opacity:1;background-color:rgb(52 211 153/var(--tw-bg-opacity,1))}.bg-emerald-500{--tw-bg-opacity:1;background-color:rgb(16 185 129/var(--tw-bg-opacity,1))}.bg-emerald-600\/20{background-color:rgba(5,150,105,.2)}.bg-gray-800{--tw-bg-opacity:1;background-color:rgb(31 41 55/var(--tw-bg-opacity,1))}.bg-gray-800\/80{background-color:rgba(31,41,55,.8)}.bg-gray-900{--tw-bg-opacity:1;background-color:rgb(17 24 39/var(--tw-bg-opacity,1))}.bg-gray-900\/80{background-color:rgba(17,24,39,.8)}.bg-indigo-600{--tw-bg-opacity:1;background-color:rgb(79 70 229/var(--tw-bg-opacity,1))}.bg-indigo-600\/20{background-color:rgba(79,70,229,.2)}.bg-indigo-900\/50{background-color:rgba(49,46,129,.5)}.bg-indigo-900\/60{background-color:rgba(49,46,129,.6)}.bg-indigo-900\/90{background-color:rgba(49,46,129,.9)}.bg-indigo-950\/80{background-color:rgba(30,27,75,.8)}.bg-red-500{--tw-bg-opacity:1;background-color:rgb(239 68 68/var(--tw-bg-opacity,1))}.bg-gradient-to-br{background-image:linear-gradient(to bottom right,var(--tw-gradient-stops))}.bg-gradient-to-r{background-image:linear-gradient(to right,var(--tw-gradient-stops))}.bg-gradient-to-tr{background-image:linear-gradient(to top right,var(--tw-gradient-stops))}.from-cyan-500\/10{--tw-gradient-from:rgba(6,182,212,.1) var(--tw-gradient-from-position);--tw-gradient-to:rgba(6,182,212,0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-indigo-400{--tw-gradient-from:#818cf8 var(--tw-gradient-from-position);--tw-gradient-to:rgba(129,140,248,0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-indigo-500{--tw-gradient-from:#6366f1 var(--tw-gradient-from-position);--tw-gradient-to:rgba(99,102,241,0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-indigo-600{--tw-gradient-from:#4f46e5 var(--tw-gradient-from-position);--tw-gradient-to:rgba(79,70,229,0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.from-white{--tw-gradient-from:#fff var(--tw-gradient-from-position);--tw-gradient-to:hsla(0,0%,100%,0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.via-cyan-400{--tw-gradient-to:rgba(34,211,238,0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from),#22d3ee var(--tw-gradient-via-position),var(--tw-gradient-to)}.via-gray-200{--tw-gradient-to:rgba(229,231,235,0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from),#e5e7eb var(--tw-gradient-via-position),var(--tw-gradient-to)}.to-blue-600{--tw-gradient-to:#2563eb var(--tw-gradient-to-position)}.to-cyan-400{--tw-gradient-to:#22d3ee var(--tw-gradient-to-position)}.to-cyan-500{--tw-gradient-to:#06b6d4 var(--tw-gradient-to-position)}.to-emerald-400{--tw-gradient-to:#34d399 var(--tw-gradient-to-position)}.to-indigo-400{--tw-gradient-to:#818cf8 var(--tw-gradient-to-position)}.to-indigo-600\/5{--tw-gradient-to:rgba(79,70,229,.05) var(--tw-gradient-to-position)}.bg-clip-text{-webkit-background-clip:text;background-clip:text}.object-cover{-o-object-fit:cover;object-fit:cover}.p-2{padding:.5rem}.p-3{padding:.75rem}.p-4{padding:1rem}.p-5{padding:1.25rem}.p-6{padding:1.5rem}.p-8{padding:2rem}.px-2{padding-left:.5rem;padding-right:.5rem}.px-2\.5{padding-left:.625rem;padding-right:.625rem}.px-3{padding-left:.75rem;padding-right:.75rem}.px-3\.5{padding-left:.875rem;padding-right:.875rem}.px-4{padding-left:1rem;padding-right:1rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.px-8{padding-left:2rem;padding-right:2rem}.py-0\.5{padding-top:.125rem;padding-bottom:.125rem}.py-1{padding-top:.25rem;padding-bottom:.25rem}.py-1\.5{padding-top:.375rem;padding-bottom:.375rem}.py-2{padding-top:.5rem;padding-bottom:.5rem}.py-2\.5{padding-top:.625rem;padding-bottom:.625rem}.py-24{padding-top:6rem;padding-bottom:6rem}.py-3{padding-top:.75rem;padding-bottom:.75rem}.py-3\.5{padding-top:.875rem;padding-bottom:.875rem}.py-4{padding-top:1rem;padding-bottom:1rem}.py-8{padding-top:2rem;padding-bottom:2rem}.pb-16{padding-bottom:4rem}.pb-4{padding-bottom:1rem}.pl-6{padding-left:1.5rem}.pr-12{padding-right:3rem}.pt-1{padding-top:.25rem}.pt-2{padding-top:.5rem}.pt-28{padding-top:7rem}.pt-4{padding-top:1rem}.pt-6{padding-top:1.5rem}.pt-8{padding-top:2rem}.text-center{text-align:center}.font-mono{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-\[10\.5px\]{font-size:10.5px}.text-\[10px\]{font-size:10px}.text-base{font-size:1rem;line-height:1.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:.75rem;line-height:1rem}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.font-normal{font-weight:400}.font-semibold{font-weight:600}.uppercase{text-transform:uppercase}.italic{font-style:italic}.leading-relaxed{line-height:1.625}.leading-tight{line-height:1.25}.tracking-tight{letter-spacing:-.025em}.tracking-wide{letter-spacing:.025em}.tracking-wider{letter-spacing:.05em}.tracking-widest{letter-spacing:.1em}.text-amber-400{--tw-text-opacity:1;color:rgb(251 191 36/var(--tw-text-opacity,1))}.text-cyan-400{--tw-text-opacity:1;color:rgb(34 211 238/var(--tw-text-opacity,1))}.text-emerald-300{--tw-text-opacity:1;color:rgb(110 231 183/var(--tw-text-opacity,1))}.text-emerald-400{--tw-text-opacity:1;color:rgb(52 211 153/var(--tw-text-opacity,1))}.text-gray-100{--tw-text-opacity:1;color:rgb(243 244 246/var(--tw-text-opacity,1))}.text-gray-200{--tw-text-opacity:1;color:rgb(229 231 235/var(--tw-text-opacity,1))}.text-gray-300{--tw-text-opacity:1;color:rgb(209 213 219/var(--tw-text-opacity,1))}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175/var(--tw-text-opacity,1))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128/var(--tw-text-opacity,1))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81/var(--tw-text-opacity,1))}.text-indigo-300{--tw-text-opacity:1;color:rgb(165 180 252/var(--tw-text-opacity,1))}.text-indigo-400{--tw-text-opacity:1;color:rgb(129 140 248/var(--tw-text-opacity,1))}.text-transparent{color:transparent}.text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity,1))}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.placeholder-gray-500::-moz-placeholder{--tw-placeholder-opacity:1;color:rgb(107 114 128/var(--tw-placeholder-opacity,1))}.placeholder-gray-500::placeholder{--tw-placeholder-opacity:1;color:rgb(107 114 128/var(--tw-placeholder-opacity,1))}.opacity-0{opacity:0}.opacity-30{opacity:.3}.opacity-80{opacity:.8}.opacity-90{opacity:.9}.shadow{--tw-shadow:0 1px 3px 0 rgba(0,0,0,.1),0 1px 2px -1px rgba(0,0,0,.1);--tw-shadow-colored:0 1px 3px 0 var(--tw-shadow-color),0 1px 2px -1px var(--tw-shadow-color)}.shadow,.shadow-2xl{box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgba(0,0,0,.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color)}.shadow-inner{--tw-shadow:inset 0 2px 4px 0 rgba(0,0,0,.05);--tw-shadow-colored:inset 0 2px 4px 0 var(--tw-shadow-color)}.shadow-inner,.shadow-lg{box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -4px rgba(0,0,0,.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color),0 4px 6px -4px var(--tw-shadow-color)}.shadow-indigo-500\/20{--tw-shadow-color:rgba(99,102,241,.2);--tw-shadow:var(--tw-shadow-colored)}.shadow-indigo-500\/30{--tw-shadow-color:rgba(99,102,241,.3);--tw-shadow:var(--tw-shadow-colored)}.shadow-indigo-600\/30{--tw-shadow-color:rgba(79,70,229,.3);--tw-shadow:var(--tw-shadow-colored)}.outline{outline-style:solid}.blur{--tw-blur:blur(8px)}.blur,.blur-xl{filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.blur-xl{--tw-blur:blur(24px)}.backdrop-blur-md{--tw-backdrop-blur:blur(12px)}.backdrop-blur-md,.backdrop-filter{-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-colors{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-transform{transition-property:transform;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.duration-300{transition-duration:.3s}.duration-500{transition-duration:.5s}.ease-in-out{transition-timing-function:cubic-bezier(.4,0,.2,1)}.selection\:bg-indigo-500 ::-moz-selection{--tw-bg-opacity:1;background-color:rgb(99 102 241/var(--tw-bg-opacity,1))}.selection\:bg-indigo-500 ::selection{--tw-bg-opacity:1;background-color:rgb(99 102 241/var(--tw-bg-opacity,1))}.selection\:text-white ::-moz-selection{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity,1))}.selection\:text-white ::selection{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity,1))}.selection\:bg-indigo-500::-moz-selection{--tw-bg-opacity:1;background-color:rgb(99 102 241/var(--tw-bg-opacity,1))}.selection\:bg-indigo-500::selection{--tw-bg-opacity:1;background-color:rgb(99 102 241/var(--tw-bg-opacity,1))}.selection\:text-white::-moz-selection{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity,1))}.selection\:text-white::selection{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity,1))}.hover\:-translate-y-0\.5:hover{--tw-translate-y:-0.125rem}.hover\:-translate-y-0\.5:hover,.hover\:-translate-y-1:hover{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:-translate-y-1:hover{--tw-translate-y:-0.25rem}.hover\:border-cyan-500\/50:hover{border-color:rgba(6,182,212,.5)}.hover\:border-emerald-500\/50:hover{border-color:rgba(16,185,129,.5)}.hover\:border-indigo-500:hover{--tw-border-opacity:1;border-color:rgb(99 102 241/var(--tw-border-opacity,1))}.hover\:border-indigo-500\/50:hover{border-color:rgba(99,102,241,.5)}.hover\:bg-gray-700:hover{--tw-bg-opacity:1;background-color:rgb(55 65 81/var(--tw-bg-opacity,1))}.hover\:bg-gray-800:hover{--tw-bg-opacity:1;background-color:rgb(31 41 55/var(--tw-bg-opacity,1))}.hover\:bg-indigo-500:hover{--tw-bg-opacity:1;background-color:rgb(99 102 241/var(--tw-bg-opacity,1))}.hover\:from-indigo-500:hover{--tw-gradient-from:#6366f1 var(--tw-gradient-from-position);--tw-gradient-to:rgba(99,102,241,0) var(--tw-gradient-to-position);--tw-gradient-stops:var(--tw-gradient-from),var(--tw-gradient-to)}.hover\:to-blue-500:hover{--tw-gradient-to:#3b82f6 var(--tw-gradient-to-position)}.hover\:text-indigo-400:hover{--tw-text-opacity:1;color:rgb(129 140 248/var(--tw-text-opacity,1))}.hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity,1))}.focus\:border-indigo-500:focus{--tw-border-opacity:1;border-color:rgb(99 102 241/var(--tw-border-opacity,1))}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.group:hover .group-hover\:-translate-y-1{--tw-translate-y:-0.25rem}.group:hover .group-hover\:-translate-y-1,.group:hover .group-hover\:translate-x-1{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.group:hover .group-hover\:translate-x-1{--tw-translate-x:0.25rem}.group:hover .group-hover\:scale-105{--tw-scale-x:1.05;--tw-scale-y:1.05}.group:hover .group-hover\:scale-105,.group:hover .group-hover\:scale-110{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.group:hover .group-hover\:scale-110{--tw-scale-x:1.1;--tw-scale-y:1.1}.group:hover .group-hover\:text-indigo-300{--tw-text-opacity:1;color:rgb(165 180 252/var(--tw-text-opacity,1))}.group:hover .group-hover\:text-indigo-400{--tw-text-opacity:1;color:rgb(129 140 248/var(--tw-text-opacity,1))}@media (min-width:640px){.sm\:w-auto{width:auto}.sm\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.sm\:grid-cols-4{grid-template-columns:repeat(4,minmax(0,1fr))}.sm\:flex-row{flex-direction:row}.sm\:items-center{align-items:center}.sm\:justify-between{justify-content:space-between}.sm\:p-10{padding:2.5rem}.sm\:p-8{padding:2rem}.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}.sm\:text-right{text-align:right}.sm\:text-3xl{font-size:1.875rem;line-height:2.25rem}.sm\:text-4xl{font-size:2.25rem;line-height:2.5rem}.sm\:text-6xl{font-size:3.75rem;line-height:1}.sm\:text-base{font-size:1rem;line-height:1.5rem}.sm\:text-lg{font-size:1.125rem;line-height:1.75rem}.sm\:text-xl{font-size:1.25rem;line-height:1.75rem}}@media (min-width:768px){.md\:flex{display:flex}.md\:hidden{display:none}.md\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.md\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}}@media (min-width:1024px){.lg\:col-span-5{grid-column:span 5/span 5}.lg\:col-span-7{grid-column:span 7/span 7}.lg\:mx-0{margin-left:0;margin-right:0}.lg\:flex{display:flex}.lg\:grid-cols-12{grid-template-columns:repeat(12,minmax(0,1fr))}.lg\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.lg\:grid-cols-3{grid-template-columns:repeat(3,minmax(0,1fr))}.lg\:justify-start{justify-content:flex-start}.lg\:px-8{padding-left:2rem;padding-right:2rem}.lg\:text-left{text-align:left}}</style>
+
+    <!-- FontAwesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #0a0f1d;
+            color: #f3f4f6;
+            overflow-x: hidden;
+        }
+
+        /* Glassmorphism utility */
+        .glass-card {
+            background: rgba(31, 41, 55, 0.45);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.08);
+        }
+
+        .glass-nav {
+            background: rgba(10, 15, 29, 0.85);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+        }
+
+        /* Glowing gradient aura behind hero or cards */
+        .glow-effect {
+            position: absolute;
+            width: 350px;
+            height: 350px;
+            background: radial-gradient(circle, rgba(99, 102, 241, 0.18) 0%, rgba(59, 130, 246, 0.05) 70%, transparent 100%);
+            border-radius: 50%;
+            pointer-events: none;
+            z-index: 0;
+        }
+
+        /* Custom scrollbar */
+        ::-webkit-scrollbar { width: 8px; }
+        ::-webkit-scrollbar-track { background: #0a0f1d; }
+        ::-webkit-scrollbar-thumb { background: #374151; border-radius: 4px; }
+        ::-webkit-scrollbar-thumb:hover { background: #4b5563; }
+
+        /* Floating animation */
+        @keyframes floatSlow {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-10px); }
+        }
+        .animate-float { animation: floatSlow 5s ease-in-out infinite; }
+
+        /* Typing formula bar */
+        @keyframes typing { to { width: 34ch; } }
+        @keyframes blink { 50% { border-color: transparent; } }
+        .fx-text {
+            display: inline-block; width: 0; overflow: hidden; white-space: nowrap;
+            border-right: 2px solid #10b981;
+            animation: typing 2s steps(34, end) forwards, blink 0.8s step-end infinite;
+        }
+
+        /* Timeline */
+        .timeline { position: relative; padding-left: 2rem; }
+        .timeline::before {
+            content: ''; position: absolute; left: 0; top: 6px; bottom: 6px; width: 2px;
+            background: linear-gradient(to bottom, #6366f1, rgba(99,102,241,0.1));
+        }
+        .t-item { position: relative; }
+        .t-item::before {
+            content: ''; position: absolute; left: -2.45rem; top: 0.5rem; width: 12px; height: 12px;
+            border-radius: 50%; background: #0a0f1d; border: 2px solid #6366f1;
+        }
+
+        .project-card.hide { display: none; }
+
+        :focus-visible { outline: 2px solid #818cf8; outline-offset: 2px; }
+
+        @media (prefers-reduced-motion: reduce) {
+            .animate-float, .animate-pulse { animation: none !important; }
+            .fx-text { animation: none; width: auto; border-right: none; }
+        }
+    </style>
+</head>
+<body class="bg-dark-900 text-gray-100 antialiased selection:bg-indigo-500 selection:text-white">
+
+    <header class="fixed top-0 left-0 right-0 z-50 glass-nav transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-20 flex items-center justify-between">
+            <a href="#" class="flex items-center space-x-3 group">
+                <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-indigo-600 to-cyan-500 flex items-center justify-center shadow-lg shadow-indigo-500/30 group-hover:scale-105 transition-transform">
+                    <i class="fa-solid fa-chart-line text-white text-lg"></i>
+                </div>
+                <span class="text-xl font-bold tracking-tight bg-gradient-to-r from-white via-gray-200 to-indigo-400 bg-clip-text text-transparent">Mohammed Wael</span>
+            </a>
+
+            <!-- Desktop Nav Links -->
+            <nav class="hidden md:flex items-center space-x-6">
+                <a href="#about" class="text-sm font-medium text-gray-300 hover:text-indigo-400 transition-colors">About</a>
+                <a href="#skills" class="text-sm font-medium text-gray-300 hover:text-indigo-400 transition-colors">Skills</a>
+                <a href="#experience" class="text-sm font-medium text-gray-300 hover:text-indigo-400 transition-colors">Experience</a>
+                <a href="#education" class="text-sm font-medium text-gray-300 hover:text-indigo-400 transition-colors">Education</a>
+                <a href="#projects" class="text-sm font-medium text-gray-300 hover:text-indigo-400 transition-colors">Projects</a>
+                <a href="#contact" class="text-sm font-medium text-gray-300 hover:text-indigo-400 transition-colors">Contact</a>
+            </nav>
+
+            <div class="hidden lg:flex items-center space-x-4">
+                <a href="#contact" class="px-5 py-2.5 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-medium text-sm shadow-lg shadow-indigo-600/30 transition-all transform hover:-translate-y-0.5">
+                    <i class="fa-solid fa-paper-plane mr-2 text-xs"></i> Get in touch
+                </a>
+            </div>
+
+            <!-- Mobile menu button -->
+            <button id="mobile-menu-btn" aria-label="Toggle menu" class="md:hidden text-gray-300 hover:text-white focus:outline-none p-2">
+                <i class="fa-solid fa-bars text-xl"></i>
+            </button>
+        </div>
+
+        <!-- Mobile Menu Dropdown -->
+        <div id="mobile-menu" class="hidden md:hidden glass-card border-t border-gray-800 px-6 py-4 space-y-3">
+            <a href="#about" class="block text-gray-300 hover:text-indigo-400 font-medium py-1">About</a>
+            <a href="#skills" class="block text-gray-300 hover:text-indigo-400 font-medium py-1">Skills</a>
+            <a href="#experience" class="block text-gray-300 hover:text-indigo-400 font-medium py-1">Experience</a>
+            <a href="#education" class="block text-gray-300 hover:text-indigo-400 font-medium py-1">Education</a>
+            <a href="#projects" class="block text-gray-300 hover:text-indigo-400 font-medium py-1">Projects</a>
+            <a href="#contact" class="block text-gray-300 hover:text-indigo-400 font-medium py-1">Contact</a>
+        </div>
+    </header>
+
+    <!-- ============ HERO ============ -->
+    <section class="relative min-h-screen flex items-center justify-center pt-28 pb-16 overflow-hidden">
+        <div class="glow-effect top-1/4 left-10"></div>
+        <div class="glow-effect bottom-10 right-10 bg-gradient-to-br from-cyan-500/10 to-indigo-600/5"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 w-full">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+
+                <!-- Left text content -->
+                <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                    <div class="inline-flex items-center space-x-2 px-3.5 py-1.5 rounded-full bg-indigo-950/80 border border-indigo-500/30 text-indigo-300 text-xs font-semibold uppercase tracking-wider shadow-inner">
+                        <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+                        <span>Data Analyst · Cairo, Egypt</span>
+                    </div>
+
+                    <h1 class="text-4xl sm:text-6xl font-extrabold tracking-tight text-white leading-tight">
+                        Turning datasets into <span class="bg-gradient-to-r from-indigo-400 via-cyan-400 to-emerald-400 bg-clip-text text-transparent">decisions.</span>
+                    </h1>
+
+                    <p class="text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto lg:mx-0 font-normal leading-relaxed">
+                        Hi, I'm <strong class="text-white font-semibold">Mohammed Wael</strong> — Data Analyst working with Power BI, SQL, Python and Tableau. I turn raw datasets into dashboards that drive real decisions, tracking campaign performance, customer behavior, and revenue trends across e-commerce, retail, and sports data.
+                    </p>
+
+                    <div class="flex flex-col sm:flex-row flex-wrap items-center justify-center lg:justify-start gap-4 pt-4">
+                        <a href="#projects" class="w-full sm:w-auto px-8 py-3.5 rounded-xl bg-gradient-to-r from-indigo-600 to-blue-600 hover:from-indigo-500 hover:to-blue-500 text-white font-semibold shadow-lg shadow-indigo-600/30 transition-all transform hover:-translate-y-1 flex items-center justify-center space-x-2">
+                            <span>View my work</span>
+                            <i class="fa-solid fa-arrow-right text-sm"></i>
+                        </a>
+                        <a href="https://drive.google.com/file/d/1Dt9GbZOLispn9nYGDXZlNdiOFfsEvu2N/view?usp=drive_link" target="_blank" rel="noopener" class="w-full sm:w-auto px-8 py-3.5 rounded-xl glass-card hover:bg-gray-800 text-gray-200 font-semibold transition-all border border-gray-700/80 flex items-center justify-center space-x-2">
+                            <i class="fa-solid fa-file-arrow-down text-indigo-400"></i>
+                            <span>View CV</span>
+                        </a>
+                        <a href="https://github.com/mohammedweal2" target="_blank" rel="noopener" aria-label="GitHub" class="w-12 h-12 rounded-xl glass-card hover:bg-gray-800 text-gray-200 transition-all border border-gray-700/80 flex items-center justify-center">
+                            <i class="fa-brands fa-github text-lg"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/mohammed-weal/" target="_blank" rel="noopener" aria-label="LinkedIn" class="w-12 h-12 rounded-xl glass-card hover:bg-gray-800 text-gray-200 transition-all border border-gray-700/80 flex items-center justify-center">
+                            <i class="fa-brands fa-linkedin-in text-lg"></i>
+                        </a>
+                    </div>
+
+                    <!-- Key stats counters -->
+                    <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 pt-8 border-t border-gray-800/80 max-w-2xl mx-auto lg:mx-0">
+                        <div>
+                            <div class="text-2xl sm:text-3xl font-bold text-white stat-num" data-target="925" data-prefix="$" data-suffix="M+">$925M+</div>
+                            <div class="text-xs text-gray-400 mt-1">Revenue analyzed across projects</div>
+                        </div>
+                        <div>
+                            <div class="text-2xl sm:text-3xl font-bold text-white stat-num" data-target="7" data-prefix="" data-suffix="">4</div>
+                            <div class="text-xs text-gray-400 mt-1">Power BI dashboards shipped</div>
+                        </div>
+                        <div>
+                            <div class="text-2xl sm:text-3xl font-bold text-white stat-num" data-target="12" data-prefix="" data-suffix="">12</div>
+                            <div class="text-xs text-gray-400 mt-1">Certifications earned</div>
+                        </div>
+                        <div>
+                            <div class="text-2xl sm:text-3xl font-bold text-white stat-num" data-target="3.56" data-prefix="" data-suffix=" / 4.0" data-decimal="true">3.56 / 4.0</div>
+                            <div class="text-xs text-gray-400 mt-1">Academic GPA</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right visual element: profile card -->
+                <div class="lg:col-span-5 flex justify-center">
+                    <div class="relative w-full max-w-md">
+                        <div class="absolute -inset-1.5 bg-gradient-to-r from-indigo-500 to-cyan-500 rounded-2xl blur-xl opacity-30 animate-pulse"></div>
+                        <div class="relative glass-card rounded-2xl p-6 sm:p-8 shadow-2xl space-y-6">
+                            <div class="flex items-center justify-between border-b border-gray-700 pb-4">
+                                <div class="flex items-center space-x-3">
+                                    <div class="w-3 h-3 rounded-full bg-red-500"></div>
+                                    <div class="w-3 h-3 rounded-full bg-amber-500"></div>
+                                    <div class="w-3 h-3 rounded-full bg-emerald-500"></div>
+                                </div>
+                                <span class="text-xs font-mono text-gray-400">mohammed_wael.pbix</span>
+                            </div>
+
+                            <div class="flex items-center space-x-5">
+                                <img src="https://avatars.githubusercontent.com/u/264509495?v=4" alt="Mohammed Wael" class="w-24 h-24 rounded-2xl border-2 border-indigo-500/70 object-cover shadow-lg shadow-indigo-500/20 animate-float">
+                                <div>
+                                    <div class="text-xl font-bold text-white">Mohammed Wael</div>
+                                    <div class="text-sm text-indigo-300 mt-1">Data Analyst</div>
+                                    <div class="text-xs text-gray-400 mt-1">Power BI · SQL · Python · Tableau</div>
+                                </div>
+                            </div>
+
+                            <div class="p-3 rounded-lg bg-gray-900/80 border border-gray-800 font-mono text-xs flex items-center gap-3">
+                                <span class="px-2 py-0.5 rounded border border-gray-700 italic font-semibold text-gray-400">fx</span>
+                                <span class="fx-text text-emerald-300">=STORY(dataset, curiosity, TRUE)</span>
+                            </div>
+
+                            <div class="flex items-center justify-between pt-2">
+                                <div class="flex items-center space-x-2 text-xs text-gray-400">
+                                    <i class="fa-solid fa-location-dot text-emerald-400"></i>
+                                    <span>Cairo, Egypt</span>
+                                </div>
+                                <span class="px-2.5 py-1 rounded-md bg-indigo-900/50 text-indigo-300 text-xs font-semibold">E-commerce · Retail · Sports</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section id="about" class="py-24 relative bg-dark-800/40 border-t border-b border-gray-800/60">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+                <h2 class="text-xs uppercase font-bold tracking-widest text-indigo-400">About</h2>
+                <h3 class="text-3xl sm:text-4xl font-extrabold text-white">Turning datasets into decisions.</h3>
+                <p class="text-gray-400 text-base sm:text-lg">
+                    Results-driven <strong class="text-white font-semibold">Data Analyst</strong> based in Cairo, Egypt, with hands-on experience translating complex datasets into actionable marketing insights. Skilled in building interactive <strong class="text-white font-semibold">Power BI dashboards</strong> that track campaign performance, customer behavior, and revenue trends.
+                </p>
+                <p class="text-gray-400 text-base sm:text-lg">
+                    Adept at identifying high-value customer segments, measuring ROI, and supporting data-driven decision-making for marketing teams — passionate about using analytics to optimize strategy and drive measurable business growth.
+                </p>
+            </div>
+
+            <div class="max-w-3xl mx-auto mb-16 border-l-2 border-amber-500 pl-6 text-lg sm:text-xl font-medium text-gray-100 leading-relaxed">
+                Every dataset has a story. I clean it, structure it, and hand it back in a form someone can decide with.
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Card 1 -->
+                <div class="glass-card rounded-2xl p-8 hover:border-indigo-500/50 transition-all duration-300 group">
+                    <div class="w-14 h-14 rounded-2xl bg-indigo-600/20 text-indigo-400 flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-chart-pie"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-white mb-3">Data Visualization</h4>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Interactive Power BI dashboards, Excel and Tableau reporting that track campaign performance, customer behavior, and revenue trends.
+                    </p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="glass-card rounded-2xl p-8 hover:border-cyan-500/50 transition-all duration-300 group">
+                    <div class="w-14 h-14 rounded-2xl bg-cyan-600/20 text-cyan-400 flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-database"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-white mb-3">Data &amp; Databases</h4>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        SQL Server and PostgreSQL, DAX and Power Query, plus ETL and data cleaning to prepare datasets for analysis and reporting.
+                    </p>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="glass-card rounded-2xl p-8 hover:border-emerald-500/50 transition-all duration-300 group">
+                    <div class="w-14 h-14 rounded-2xl bg-emerald-600/20 text-emerald-400 flex items-center justify-center text-2xl mb-6 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+                    <h4 class="text-xl font-bold text-white mb-3">Programming</h4>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Python with Pandas, NumPy, Seaborn and Matplotlib for data cleaning and analysis, with Git &amp; GitHub for version control.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section id="skills" class="py-24 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+                <h2 class="text-xs uppercase font-bold tracking-widest text-indigo-400">Toolkit</h2>
+                <h3 class="text-3xl sm:text-4xl font-extrabold text-white">Core competencies</h3>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+                <!-- Left: Skill Bars (rendered from JS data) -->
+                <div class="glass-card rounded-2xl p-8 space-y-8">
+                    <h4 class="text-xl font-bold text-white flex items-center">
+                        <i class="fa-solid fa-sliders text-indigo-400 mr-3"></i> Core Proficiencies
+                    </h4>
+                    <div id="skill-bars" class="space-y-8"></div>
+                </div>
+
+                <!-- Right: tools + soft skills -->
+                <div class="glass-card rounded-2xl p-8 space-y-8">
+                    <div>
+                        <h4 class="text-xl font-bold text-white mb-5 flex items-center">
+                            <i class="fa-solid fa-cubes text-cyan-400 mr-3"></i> Tools &amp; Technologies
+                        </h4>
+                        <div id="tool-pills" class="flex flex-wrap gap-3"></div>
+                    </div>
+
+                    <div class="pt-6 border-t border-gray-800">
+                        <h4 class="text-xl font-bold text-white mb-5 flex items-center">
+                            <i class="fa-solid fa-comments text-emerald-400 mr-3"></i> Working Style
+                        </h4>
+                        <div class="flex flex-wrap gap-3">
+                            <span class="px-4 py-2 rounded-xl bg-gray-800/80 border border-gray-700 text-gray-200 text-sm font-medium">Storytelling with data</span>
+                            <span class="px-4 py-2 rounded-xl bg-gray-800/80 border border-gray-700 text-gray-200 text-sm font-medium">Cross-functional collaboration</span>
+                            <span class="px-4 py-2 rounded-xl bg-gray-800/80 border border-gray-700 text-gray-200 text-sm font-medium">Problem solving</span>
+                            <span class="px-4 py-2 rounded-xl bg-gray-800/80 border border-gray-700 text-gray-200 text-sm font-medium">Presentation</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section id="experience" class="py-24 relative bg-dark-800/40 border-t border-b border-gray-800/60">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+                <h2 class="text-xs uppercase font-bold tracking-widest text-indigo-400">Experience</h2>
+                <h3 class="text-3xl sm:text-4xl font-extrabold text-white">Where I've worked</h3>
+            </div>
+
+            <div class="timeline space-y-12">
+
+                <div class="t-item">
+                    <div class="text-xs font-mono text-amber-400 mb-2">April 2025 — Present</div>
+                    <h4 class="text-xl font-bold text-white">Data Entry Assistant</h4>
+                    <div class="text-sm text-gray-400 mb-3">KoraStats</div>
+                    <ul class="list-disc ml-5 space-y-1.5 text-sm text-gray-400 leading-relaxed">
+                        <li>Accurately entering, verifying, and maintaining sports data records within the KoraStats platform.</li>
+                        <li>Ensuring data integrity and consistency across datasets to support reliable sports analytics and reporting.</li>
+                    </ul>
+                </div>
+
+                <div class="t-item">
+                    <div class="text-xs font-mono text-amber-400 mb-2">October 2024 — July 2025</div>
+                    <h4 class="text-xl font-bold text-white">Data Analyst — Power BI Engineering Track</h4>
+                    <div class="text-sm text-gray-400 mb-3">Digital Egypt Pioneers Initiative (DEPI)</div>
+                    <ul class="list-disc ml-5 space-y-1.5 text-sm text-gray-400 leading-relaxed">
+                        <li>Built end-to-end Power BI dashboards to analyze sales, customer, and operational data for real-world business scenarios.</li>
+                        <li>Applied data transformation and cleaning techniques using Power Query and DAX to prepare datasets for analysis.</li>
+                        <li>Delivered a final capstone project with a certificate of completion, covering the full lifecycle from data ingestion to insight presentation.</li>
+                        <li>Collaborated in a team environment to translate business requirements into visual analytics solutions.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ EDUCATION & CERTIFICATIONS ============ -->
+    <section id="education" class="py-24 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+                <h2 class="text-xs uppercase font-bold tracking-widest text-indigo-400">Education</h2>
+                <h3 class="text-3xl sm:text-4xl font-extrabold text-white">Academic background</h3>
+            </div>
+
+            <div class="glass-card rounded-2xl p-8 flex flex-col sm:flex-row sm:items-center sm:justify-between gap-6 max-w-4xl mx-auto">
+                <div class="flex items-start space-x-4">
+                    <div class="w-14 h-14 shrink-0 rounded-2xl bg-indigo-600/20 text-indigo-400 flex items-center justify-center text-2xl">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <div>
+                        <div class="text-xl font-bold text-white">Bachelor of Business Information Systems (BIS)</div>
+                        <div class="text-sm text-gray-400 mt-1">Capital University, Faculty of Business Information Systems</div>
+                    </div>
+                </div>
+                <div class="sm:text-right">
+                    <div class="text-3xl font-bold text-emerald-400">3.56 / 4.0</div>
+                    <div class="text-xs font-mono text-gray-400 mt-1">Sep 2023 — Jul 2027 · Excellent</div>
+                </div>
+            </div>
+
+            <div class="mt-20">
+                <div class="text-center mb-10 space-y-4">
+                    <h2 class="text-xs uppercase font-bold tracking-widest text-indigo-400">Certifications</h2>
+                    <h3 class="text-2xl sm:text-3xl font-extrabold text-white">Courses &amp; credentials</h3>
+                </div>
+                <div id="cert-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section id="projects" class="py-24 relative bg-dark-800/40 border-t border-b border-gray-800/60">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16 space-y-4">
+                <h2 class="text-xs uppercase font-bold tracking-widest text-indigo-400">Projects</h2>
+                <h3 class="text-3xl sm:text-4xl font-extrabold text-white">Selected work</h3>
+                <p class="text-gray-400 text-base">
+                    Click on any project card to see its key numbers, tools, and a link to the source on GitHub.
+                </p>
+
+                <!-- Filter Buttons -->
+                <div class="flex flex-wrap items-center justify-center gap-2 pt-4">
+                    <button class="filter-btn px-4 py-2 rounded-xl bg-indigo-600 text-white text-xs font-semibold transition-all shadow" data-filter="all">All</button>
+                    <button class="filter-btn px-4 py-2 rounded-xl bg-gray-800 hover:bg-gray-700 text-gray-300 text-xs font-semibold transition-all" data-filter="power-bi">Power BI</button>
+                    <button class="filter-btn px-4 py-2 rounded-xl bg-gray-800 hover:bg-gray-700 text-gray-300 text-xs font-semibold transition-all" data-filter="sql">SQL</button>
+                    <button class="filter-btn px-4 py-2 rounded-xl bg-gray-800 hover:bg-gray-700 text-gray-300 text-xs font-semibold transition-all" data-filter="python">Python</button>
+                </div>
+            </div>
+
+            <!-- Projects Grid (rendered from JS data) -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" id="projects-grid"></div>
+        </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section id="contact" class="py-24 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+
+                <!-- Left info -->
+                <div class="lg:col-span-5 space-y-6">
+                    <h2 class="text-xs uppercase font-bold tracking-widest text-indigo-400">Contact</h2>
+                    <h3 class="text-3xl sm:text-4xl font-extrabold text-white">Let's work with your data</h3>
+                    <p class="text-gray-400 text-base leading-relaxed">
+                        Looking for a Power BI dashboard, customer or sales analysis, or help cleaning and structuring a dataset? Send me a message, or find me on GitHub and LinkedIn.
+                    </p>
+
+                    <div class="space-y-4 pt-4">
+                        <a href="mailto:mohammedweal2003@gmail.com" class="flex items-center space-x-4 text-gray-300 group">
+                            <div class="w-12 h-12 rounded-xl bg-indigo-600/20 text-indigo-400 flex items-center justify-center">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div>
+                                <div class="text-xs text-gray-500">Email</div>
+                                <div class="font-medium text-white group-hover:text-indigo-300 transition-colors">mohammedweal2003@gmail.com</div>
+                            </div>
+                        </a>
+
+                        <div class="flex items-center space-x-4 text-gray-300">
+                            <div class="w-12 h-12 rounded-xl bg-cyan-600/20 text-cyan-400 flex items-center justify-center">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div>
+                                <div class="text-xs text-gray-500">Location</div>
+                                <div class="font-medium text-white">Cairo, Egypt</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Social links -->
+                    <div class="flex space-x-4 pt-4">
+                        <a href="https://www.linkedin.com/in/mohammed-weal/" target="_blank" rel="noopener" aria-label="LinkedIn" class="w-10 h-10 rounded-xl glass-card flex items-center justify-center text-gray-300 hover:text-indigo-400 hover:border-indigo-500 transition-all">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://github.com/mohammedweal2" target="_blank" rel="noopener" aria-label="GitHub" class="w-10 h-10 rounded-xl glass-card flex items-center justify-center text-gray-300 hover:text-indigo-400 hover:border-indigo-500 transition-all">
+                            <i class="fa-brands fa-github"></i>
+                        </a>
+                        <a href="https://drive.google.com/file/d/1Dt9GbZOLispn9nYGDXZlNdiOFfsEvu2N/view?usp=drive_link" target="_blank" rel="noopener" aria-label="CV" class="w-10 h-10 rounded-xl glass-card flex items-center justify-center text-gray-300 hover:text-indigo-400 hover:border-indigo-500 transition-all">
+                            <i class="fa-solid fa-file-lines"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Right contact form (opens the visitor's email app) -->
+                <div class="lg:col-span-7">
+                    <div class="glass-card rounded-2xl p-8 sm:p-10 shadow-2xl relative">
+                        <form id="contact-form" onsubmit="handleFormSubmit(event)" class="space-y-6">
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                                <div class="space-y-2">
+                                    <label for="f-name" class="text-xs font-semibold text-gray-300 uppercase tracking-wider">Your Name</label>
+                                    <input id="f-name" name="name" type="text" required placeholder="John Doe" class="w-full px-4 py-3 rounded-xl bg-gray-900/80 border border-gray-700 text-white placeholder-gray-500 focus:outline-none focus:border-indigo-500 transition-colors">
+                                </div>
+                                <div class="space-y-2">
+                                    <label for="f-email" class="text-xs font-semibold text-gray-300 uppercase tracking-wider">Your Email</label>
+                                    <input id="f-email" name="email" type="email" required placeholder="john@example.com" class="w-full px-4 py-3 rounded-xl bg-gray-900/80 border border-gray-700 text-white placeholder-gray-500 focus:outline-none focus:border-indigo-500 transition-colors">
+                                </div>
+                            </div>
+
+                            <div class="space-y-2">
+                                <label for="f-subject" class="text-xs font-semibold text-gray-300 uppercase tracking-wider">Subject</label>
+                                <input id="f-subject" name="subject" type="text" required placeholder="Power BI dashboard project" class="w-full px-4 py-3 rounded-xl bg-gray-900/80 border border-gray-700 text-white placeholder-gray-500 focus:outline-none focus:border-indigo-500 transition-colors">
+                            </div>
+
+                            <div class="space-y-2">
+                                <label for="f-message" class="text-xs font-semibold text-gray-300 uppercase tracking-wider">Message</label>
+                                <textarea id="f-message" name="message" rows="4" required placeholder="Tell me about your data..." class="w-full px-4 py-3 rounded-xl bg-gray-900/80 border border-gray-700 text-white placeholder-gray-500 focus:outline-none focus:border-indigo-500 transition-colors"></textarea>
+                            </div>
+
+                            <button type="submit" class="w-full py-4 rounded-xl bg-gradient-to-r from-indigo-600 to-blue-600 hover:from-indigo-500 hover:to-blue-500 text-white font-semibold shadow-lg shadow-indigo-600/30 transition-all flex items-center justify-center space-x-2">
+                                <span>Send message</span>
+                                <i class="fa-solid fa-paper-plane text-xs"></i>
+                            </button>
+
+                            <div id="form-success" class="hidden text-center text-emerald-400 text-sm font-medium pt-2">
+                                <i class="fa-solid fa-circle-check mr-2"></i> Opening your email app with the message ready to send.
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-8 border-t border-gray-800/80 bg-dark-900 text-center text-sm text-gray-500">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row items-center justify-between gap-4">
+            <div>© 2026 Mohammed Wael. Built with HTML, Tailwind CSS &amp; JavaScript.</div>
+            <div class="flex flex-wrap justify-center gap-x-6 gap-y-2 text-xs">
+                <a href="#about" class="hover:text-indigo-400 transition-colors">About</a>
+                <a href="#skills" class="hover:text-indigo-400 transition-colors">Skills</a>
+                <a href="#experience" class="hover:text-indigo-400 transition-colors">Experience</a>
+                <a href="#education" class="hover:text-indigo-400 transition-colors">Education</a>
+                <a href="#projects" class="hover:text-indigo-400 transition-colors">Projects</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ============ PROJECT MODAL ============ -->
+    <div id="project-modal" class="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-md hidden opacity-0 transition-opacity duration-300" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+        <div class="glass-card rounded-2xl max-w-2xl w-full p-6 sm:p-8 relative transform scale-95 transition-transform duration-300 max-h-[90vh] overflow-y-auto" id="modal-content-box">
+            <button onclick="closeModal()" aria-label="Close" class="absolute top-4 right-4 w-10 h-10 rounded-xl bg-gray-800 text-gray-300 hover:text-white flex items-center justify-center transition-colors">
+                <i class="fa-solid fa-xmark text-lg"></i>
+            </button>
+
+            <div class="space-y-6">
+                <div class="space-y-2 pr-12">
+                    <span id="modal-category" class="inline-block px-3 py-1 rounded-lg bg-indigo-900/60 text-indigo-300 text-xs font-semibold">Category</span>
+                    <h3 id="modal-title" class="text-2xl sm:text-3xl font-extrabold text-white pt-1">Project Title</h3>
+                </div>
+
+                <div class="rounded-xl overflow-hidden h-56 bg-gray-900 border border-gray-800 relative flex items-center justify-center">
+                    <i class="fa-solid fa-chart-column text-4xl text-gray-700 absolute"></i>
+                    <img id="modal-image" src="" alt="Project preview" class="relative w-full h-full object-cover opacity-90" onerror="this.style.display='none'">
+                </div>
+
+                <div class="space-y-3">
+                    <h4 class="text-sm font-semibold text-gray-300 uppercase tracking-wider">Overview</h4>
+                    <p id="modal-description" class="text-gray-400 text-sm sm:text-base leading-relaxed">Description goes here...</p>
+                </div>
+
+                <div class="space-y-3">
+                    <h4 class="text-sm font-semibold text-gray-300 uppercase tracking-wider">Key Metrics &amp; Findings</h4>
+                    <ul id="modal-metrics" class="space-y-2 text-sm text-gray-300"></ul>
+                </div>
+
+                <div class="space-y-3">
+                    <h4 class="text-sm font-semibold text-gray-300 uppercase tracking-wider">Tools &amp; Topics</h4>
+                    <div id="modal-stack" class="flex flex-wrap gap-2"></div>
+                </div>
+
+                <div class="pt-4 border-t border-gray-800">
+                    <a id="modal-github-btn" href="#" target="_blank" rel="noopener" class="w-full py-3 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-semibold text-sm text-center shadow-lg shadow-indigo-600/30 transition-all flex items-center justify-center space-x-2">
+                        <i class="fa-brands fa-github"></i>
+                        <span>View on GitHub</span>
+                        <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        /* ================= DATA (from the original index.html) ================= */
+        const skillGroups = [
+            { title: 'Data visualization', icon: 'fa-chart-column', items: [
+                { name: 'Power BI', label: 'Advanced', level: 94 },
+                { name: 'Excel', label: 'Advanced', level: 90 },
+                { name: 'Tableau', label: 'Proficient', level: 75 }
+            ]},
+            { title: 'Data & databases', icon: 'fa-database', items: [
+                { name: 'SQL Server', label: 'Proficient', level: 82 },
+                { name: 'DAX & Power Query', label: 'Proficient', level: 83 },
+                { name: 'ETL & data cleaning', label: 'Proficient', level: 80 },
+                { name: 'PostgreSQL', label: 'Working', level: 62 }
+            ]},
+            { title: 'Programming', icon: 'fa-code', items: [
+                { name: 'Python (Pandas, NumPy, Seaborn, Matplotlib)', label: 'Working', level: 68 },
+                { name: 'Git & GitHub', label: 'Working', level: 70 }
+            ]}
+        ];
+
+        const tools = ['Power BI', 'Excel', 'Tableau', 'SQL Server', 'PostgreSQL', 'DAX', 'Power Query', 'ETL', 'Python', 'Pandas', 'NumPy', 'Seaborn', 'Matplotlib', 'Git & GitHub'];
+
+        const certs = [
+            { name: 'Data Analyst in Power BI', issuer: 'DataCamp', date: 'Aug 2025' },
+            { name: 'Data Visualization in Power BI', issuer: 'DataCamp', date: 'Jun 2025' },
+            { name: 'Data Transformation in Power BI', issuer: 'DataCamp', date: 'Apr 2025' },
+            { name: 'Joining Data in SQL', issuer: 'DataCamp', date: 'Jun 2025' },
+            { name: 'Intermediate SQL', issuer: 'DataCamp', date: 'Jun 2025' },
+            { name: 'Introduction to SQL', issuer: 'DataCamp', date: 'May 2025' },
+            { name: 'Data Engineering Basics for Everyone', issuer: 'edX', date: 'Aug 2025' },
+            { name: 'DEPI Final Project Completion', issuer: 'Egyptian Government', date: 'Jul 2025' },
+            { name: 'Advanced Data Analytics', issuer: 'Coursera', date: '2025' },
+            { name: 'Advanced Data Analysis Course', issuer: 'Data Pill Academy', date: 'Nov 2025' },
+            { name: 'AI Fluency: Framework & Foundations', issuer: 'FlyRank with Anthropic', date: '2026' },
+            { name: 'Introduction to Relational Databases (RDBMS)', issuer: 'IBM · Coursera', date: '2026' }
+        ];
+
+        const projects = [
+            {
+                title: 'Retail Sales & Performance Power BI Dashboard',
+                tags: ['power-bi', 'sql'],
+                topics: ['Power BI', 'SQL Server', 'DAX'],
+                description: 'Conducted comprehensive retail sales analysis utilizing Power BI and advanced data modeling, visualizing transactional datasets to track key revenue trends, category performance, and regional sales distribution.',
+                stats: [{ n: 'Retail', l: 'Sales Analysis' }],
+                highlights: ['Comprehensive retail sales analysis using Power BI and advanced data modeling', 'Visualized transactional datasets to track revenue trends, category performance, and regional sales distribution'],
+                github: 'https://github.com/mohammedweal2/Retail-Sales-Project-PowerBI',
+                image: 'https://raw.githubusercontent.com/mohammedweal2/Retail-Sales-Project-PowerBI/main/Time%20Series.jpeg'
+            },
+            {
+                title: 'E-Commerce Marketing Analytics Dashboard',
+                tags: ['power-bi'],
+                topics: ['Power BI', 'CLV', 'Segmentation'],
+                description: 'Analyzed a large-scale e-commerce dataset to build KPI scorecards for Customer Lifetime Value and Average Order Value, segmenting customers by behavior to guide retention marketing.',
+                stats: [{ n: '$23.16M+', l: 'Revenue tracked' }],
+                highlights: ['KPI scorecards for Customer Lifetime Value and Average Order Value', 'Customers segmented by behavior to guide retention marketing'],
+                github: 'https://github.com/mohammedweal2/E-Commerce-Analysis-Power-BI',
+                image: 'https://raw.githubusercontent.com/mohammedweal2/E-Commerce-Analysis-Power-BI/main/Main%20Page.png'
+            },
+            {
+                title: 'Adidas Multi-Channel Sales & Marketing Dashboard',
+                tags: ['power-bi'],
+                topics: ['Power BI', 'Retail', 'Omnichannel'],
+                description: "Built an end-to-end dashboard covering sales and profit across regions and retail channels. Identified Men's Street Footwear as the top-performing category and compared online vs. in-store trends.",
+                stats: [{ n: '$899.9M+', l: 'Total sales' }, { n: '$332.13M+', l: 'Operating profit' }],
+                highlights: ["Men's Street Footwear identified as the top-performing category", 'Online vs. in-store trends compared across regions and retail channels'],
+                github: 'https://github.com/mohammedweal2/-Adidas-Sales-Dashboard-',
+                image: 'https://raw.githubusercontent.com/mohammedweal2/-Adidas-Sales-Dashboard-/main/Main%20page%20of%20Adidas%20sales.jpeg'
+            },
+            {
+                title: 'SuperStore Sales Performance & Trend Analysis',
+                tags: ['power-bi', 'sql'],
+                topics: ['Power BI', 'Time series'],
+                description: 'Visualized sales across thousands of orders with KPIs including average order value. Identified Technology as the leading category and December as the peak sales period.',
+                stats: [{ n: '$2.3M', l: 'Total sales' }, { n: '4,922', l: 'Orders' }, { n: '$459.5', l: 'Avg order value' }],
+                highlights: ['Technology identified as the leading category', 'December identified as the peak sales period'],
+                github: 'https://github.com/mohammedweal2/SuperStore-Time-Series-Analysis-Power-BI-Dashboard',
+                image: 'https://raw.githubusercontent.com/mohammedweal2/SuperStore-Time-Series-Analysis-Power-BI-Dashboard/main/Final%20Project.jpeg'
+            },
+            {
+                title: 'Fleet Operations & Cost Efficiency Dashboard',
+                tags: ['power-bi', 'sql'],
+                topics: ['Power BI', 'Operations'],
+                description: 'Analyzed total maintenance cost, fuel consumption, and utilization rates across a full vehicle fleet, delivering recommendations to reduce downtime and improve driver performance.',
+                stats: [{ n: 'Fleet-wide', l: 'Cost analysis' }],
+                highlights: ['Maintenance cost, fuel consumption, and utilization rates analyzed', 'Recommendations to reduce downtime and improve driver performance'],
+                github: 'https://github.com/mohammedweal2/Fleet-Management-Power-BI-Project',
+                image: 'https://raw.githubusercontent.com/mohammedweal2/Fleet-Management-Power-BI-Project/main/Main%20Page.png'
+            },
+            {
+                title: 'Customer Behavior Analysis',
+                tags: ['power-bi', 'sql', 'python'],
+                topics: ['Power BI', 'SQL Server', 'Python'],
+                description: 'Analyzed customer purchasing patterns, lifetime value, and segmentation to uncover key behavioral insights, optimizing marketing strategies and retention rates.',
+                stats: [{ n: 'Behavioral', l: 'Segmentation' }],
+                highlights: ['Purchasing patterns, lifetime value, and segmentation analyzed', 'Insights used to optimize marketing strategies and retention rates'],
+                github: 'https://github.com/mohammedweal2/Customer-behavior-Analysis',
+                image: 'https://raw.githubusercontent.com/mohammedweal2/Customer-behavior-Analysis/main/Main%20Page%20BI_SQL.png'
+            },
+            {
+                title: 'AdventureWorks Customer & Sales Analysis',
+                tags: ['power-bi'],
+                topics: ['Power BI', 'Power Query', 'DAX'],
+                description: 'Built an end-to-end BI pipeline on the AdventureWorks retail dataset, cleaning and segmenting customers with Power Query and DAX, and delivering an interactive two-page dashboard for customer and product performance.',
+                stats: [],
+                highlights: ['End-to-end BI pipeline on the AdventureWorks retail dataset', 'Customers cleaned and segmented with Power Query and DAX', 'Interactive two-page dashboard for customer and product performance'],
+                github: 'https://github.com/mohammedweal2/Adventure_Work_Power-BI',
+                image: 'https://raw.githubusercontent.com/mohammedweal2/Adventure_Work_Power-BI/main/Product-Analysis.png'
+            }
+        ];
+
+        /* ================= RENDER ================= */
+        const esc = s => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+
+        // Skills
+        document.getElementById('skill-bars').innerHTML = skillGroups.map(g => `
+            <div class="space-y-4">
+                <div class="text-xs font-semibold text-gray-400 uppercase tracking-wider flex items-center">
+                    <i class="fa-solid ${g.icon} text-indigo-400 mr-2"></i>${esc(g.title)}
+                </div>
+                ${g.items.map(s => `
+                <div class="space-y-2">
+                    <div class="flex justify-between gap-3 text-sm font-medium">
+                        <span class="text-gray-200">${esc(s.name)}</span>
+                        <span class="text-indigo-400 font-semibold whitespace-nowrap">${esc(s.label)}</span>
+                    </div>
+                    <div class="w-full bg-gray-800 rounded-full h-2.5 overflow-hidden">
+                        <div class="bg-gradient-to-r from-indigo-500 to-cyan-400 h-2.5 rounded-full" style="width:${s.level}%"></div>
+                    </div>
+                </div>`).join('')}
+            </div>`).join('');
+
+        // Tool pills
+        document.getElementById('tool-pills').innerHTML = tools.map(t => `
+            <span class="px-4 py-2 rounded-xl bg-gray-800/80 border border-gray-700 text-gray-200 text-sm font-medium flex items-center space-x-2">
+                <i class="fa-solid fa-check text-emerald-400"></i> <span>${esc(t)}</span>
+            </span>`).join('');
+
+        // Certifications
+        document.getElementById('cert-grid').innerHTML = certs.map(c => `
+            <div class="glass-card rounded-xl p-5 hover:border-indigo-500/50 transition-colors">
+                <div class="text-sm font-semibold text-white mb-2">${esc(c.name)}</div>
+                <div class="text-xs font-mono text-amber-400 uppercase tracking-wide">${esc(c.issuer)}</div>
+                <div class="text-xs font-mono text-gray-400 mt-1">${esc(c.date)}</div>
+            </div>`).join('');
+
+        // Projects
+        const grid = document.getElementById('projects-grid');
+        grid.innerHTML = projects.map((p, i) => `
+            <div class="project-card glass-card rounded-2xl overflow-hidden hover:border-indigo-500/50 transition-all duration-300 cursor-pointer group flex flex-col justify-between"
+                 data-tags="${p.tags.join(' ')}" tabindex="0" role="button" aria-label="Open details for ${esc(p.title)}" onclick="openModal(${i})"
+                 onkeydown="if(event.key==='Enter'||event.key===' '){event.preventDefault();openModal(${i});}">
+                <div class="relative h-48 overflow-hidden bg-gray-900 flex items-center justify-center">
+                    <i class="fa-solid fa-chart-column text-4xl text-gray-700 absolute"></i>
+                    <img src="${esc(p.image)}" alt="${esc(p.title)}" loading="lazy" onerror="this.style.display='none'" class="relative w-full h-full object-cover group-hover:scale-105 transition-transform duration-500 opacity-80">
+                    <div class="absolute top-3 right-3 px-3 py-1 rounded-lg bg-indigo-900/90 text-indigo-300 text-xs font-semibold backdrop-blur-md">${esc(p.topics[0])}</div>
+                </div>
+                <div class="p-6 space-y-4 flex-1 flex flex-col justify-between">
+                    <div>
+                        <h4 class="text-xl font-bold text-white group-hover:text-indigo-400 transition-colors">${esc(p.title)}</h4>
+                        <p class="text-gray-400 text-sm mt-2 line-clamp-3">${esc(p.description)}</p>
+                        ${p.stats.length ? `<div class="flex flex-wrap gap-x-6 gap-y-2 mt-4">${p.stats.map(s => `
+                            <div class="font-mono"><div class="text-base font-semibold text-emerald-400">${esc(s.n)}</div><div class="text-[10px] uppercase tracking-wide text-gray-500">${esc(s.l)}</div></div>`).join('')}</div>` : ''}
+                    </div>
+                    <div>
+                        <div class="flex flex-wrap gap-1.5 mb-4">${p.topics.map(t => `<span class="px-2 py-0.5 rounded-md border border-gray-700 text-[10.5px] font-mono text-gray-400">${esc(t)}</span>`).join('')}</div>
+                        <div class="flex items-center justify-between pt-4 border-t border-gray-800">
+                            <span class="text-xs font-mono text-indigo-300">View details</span>
+                            <i class="fa-solid fa-arrow-up-right-from-square text-xs text-indigo-400 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>`).join('');
+
+        /* ================= INTERACTIONS ================= */
+        // Mobile menu toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenuBtn.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
+        mobileMenu.querySelectorAll('a').forEach(link => link.addEventListener('click', () => mobileMenu.classList.add('hidden')));
+
+        // Project filtering
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const projectCards = document.querySelectorAll('.project-card');
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterBtns.forEach(b => {
+                    b.classList.remove('bg-indigo-600', 'text-white');
+                    b.classList.add('bg-gray-800', 'text-gray-300');
+                });
+                btn.classList.remove('bg-gray-800', 'text-gray-300');
+                btn.classList.add('bg-indigo-600', 'text-white');
+
+                const f = btn.getAttribute('data-filter');
+                projectCards.forEach(card => {
+                    const tags = card.getAttribute('data-tags').split(' ');
+                    card.classList.toggle('hide', !(f === 'all' || tags.includes(f)));
+                });
+            });
+        });
+
+        // Modal
+        const modal = document.getElementById('project-modal');
+        const modalContentBox = document.getElementById('modal-content-box');
+
+        function openModal(i) {
+            const p = projects[i];
+            document.getElementById('modal-title').textContent = p.title;
+            document.getElementById('modal-category').textContent = p.topics.join(' · ');
+            document.getElementById('modal-description').textContent = p.description;
+            const img = document.getElementById('modal-image');
+            img.style.display = '';
+            img.src = p.image;
+            document.getElementById('modal-github-btn').href = p.github;
+
+            const items = p.stats.map(s => `${s.n} — ${s.l}`).concat(p.highlights);
+            const metricsList = document.getElementById('modal-metrics');
+            metricsList.innerHTML = '';
+            items.forEach(text => {
+                const li = document.createElement('li');
+                li.className = 'flex items-start space-x-2';
+                li.innerHTML = '<i class="fa-solid fa-circle-check text-emerald-400 text-xs mt-1"></i><span></span>';
+                li.lastChild.textContent = text;
+                metricsList.appendChild(li);
+            });
+
+            const stackContainer = document.getElementById('modal-stack');
+            stackContainer.innerHTML = '';
+            p.topics.forEach(t => {
+                const span = document.createElement('span');
+                span.className = 'px-3 py-1 rounded-lg bg-gray-800 border border-gray-700 text-indigo-300 text-xs font-medium';
+                span.textContent = t;
+                stackContainer.appendChild(span);
+            });
+
+            modal.classList.remove('hidden');
+            setTimeout(() => {
+                modal.classList.remove('opacity-0');
+                modalContentBox.classList.remove('scale-95');
+                modalContentBox.classList.add('scale-100');
+            }, 10);
+        }
+
+        function closeModal() {
+            modal.classList.add('opacity-0');
+            modalContentBox.classList.remove('scale-100');
+            modalContentBox.classList.add('scale-95');
+            setTimeout(() => modal.classList.add('hidden'), 300);
+        }
+
+        modal.addEventListener('click', e => { if (e.target === modal) closeModal(); });
+        document.addEventListener('keydown', e => { if (e.key === 'Escape' && !modal.classList.contains('hidden')) closeModal(); });
+
+        // Contact form: opens the visitor's email app with the message filled in
+        function handleFormSubmit(event) {
+            event.preventDefault();
+            const f = event.target;
+            const body = f.message.value + '\n\n— ' + f.name.value + ' (' + f.email.value + ')';
+            const url = 'mailto:mohammedweal2003@gmail.com?subject=' + encodeURIComponent(f.subject.value) + '&body=' + encodeURIComponent(body);
+            const successDiv = document.getElementById('form-success');
+            successDiv.classList.remove('hidden');
+            window.location.href = url;
+            f.reset();
+            setTimeout(() => successDiv.classList.add('hidden'), 5000);
+        }
+
+        // Count-up for hero stats
+        (function () {
+            const reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+            const nums = document.querySelectorAll('.stat-num');
+            if (reduce || !('IntersectionObserver' in window)) return;
+            const io = new IntersectionObserver(entries => {
+                entries.forEach(entry => {
+                    if (!entry.isIntersecting) return;
+                    const el = entry.target;
+                    const target = parseFloat(el.dataset.target);
+                    const dec = el.dataset.decimal === 'true';
+                    const pre = el.dataset.prefix || '', suf = el.dataset.suffix || '';
+                    const start = performance.now(), dur = 1400;
+                    (function tick(now) {
+                        const t = Math.min((now - start) / dur, 1);
+                        const v = target * (1 - Math.pow(1 - t, 3));
+                        el.textContent = pre + (dec ? v.toFixed(2) : Math.round(v)) + suf;
+                        if (t < 1) requestAnimationFrame(tick);
+                    })(start);
+                    io.unobserve(el);
+                });
+            }, { threshold: 0.4 });
+            nums.forEach(n => io.observe(n));
+        })();
+    </script>
+</body>
+</html>
